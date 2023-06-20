@@ -51,7 +51,6 @@ public class MainActivityTest {
 
     private static Matcher<View> childAtPosition(
             final Matcher<View> parentMatcher, final int position) {
-
         return new TypeSafeMatcher<View>() {
             @Override
             public void describeTo(Description description) {
